@@ -8,11 +8,10 @@ class Solution(object):
         for i in digits:
             number *= 10
             number += i
-        
-        result = number + 1
+        number +=1
         ans = []
-        while result!=0:
-            x = (result % 10)
+        while number!=0:
+            x = (number % 10)
             ans.insert(0,x)
-            result /= 10
+            number /= 10
         return ans
