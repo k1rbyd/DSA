@@ -17,6 +17,4 @@ class Solution(object):
                 s_to_t[s_char] = t_char
                 t_to_s[t_char] = s_char
 
-        print(s_to_t)
-        print(t_to_s)
         return True
