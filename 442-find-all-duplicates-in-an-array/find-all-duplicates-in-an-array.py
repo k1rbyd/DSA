@@ -5,11 +5,11 @@ class Solution(object):
         :rtype: List[int]
         """
         check = set([])
-        res = set([])
+        res = []
         nums.sort()
         for num in nums:
             if num in check:
-                res.add(num)
+                res.append(num)
             else:
                 check.add(num)
-        return list(res)
+        return res
