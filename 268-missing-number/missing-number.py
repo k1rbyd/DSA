@@ -9,7 +9,6 @@ class Solution(object):
         totalsum = (n * (n + 1) // 2)
         return totalsum - sum(nums)
 
-#        n = len(nums)
 #        for i in range(0,n+1):
 #            if i in nums:
 #                continue
