@@ -6,7 +6,6 @@ class Solution(object):
         """
         check = set([])
         res = []
-        nums.sort()
         for num in nums:
             if num in check:
                 res.append(num)
