@@ -10,7 +10,5 @@ class Solution(object):
         return totalsum - sum(nums)
 
 #        for i in range(0,n+1):
-#            if i in nums:
-#                continue
-#            else:
+#            if i not in nums:
 #                return i
