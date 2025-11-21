@@ -4,10 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+
         n = len(nums)
-        for i in range(0,n+1):
-            if i in nums:
-                continue
-            else:
-                return i
-        return -1
+        totalsum = (n * (n + 1) // 2)
+        return totalsum - sum(nums)
+
+#        n = len(nums)
+#        for i in range(0,n+1):
+#            if i in nums:
+#                continue
+#            else:
+#                return i
